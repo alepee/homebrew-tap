@@ -1,6 +1,6 @@
 cask "how-was-your-day" do
-  version "0.2.0"
-  sha256 "db8465799b1c3917688b745bc593441c8ca4616f4111131d55dfd9dd71c629b3"
+  version "0.2.1"
+  sha256 "af4e693fc6646642fb9745ce41d503c4805a228b3454e5c8cf09e2a715e3cefa"
 
   url "https://github.com/alepee/how-was-your-day/releases/download/v#{version}/HowWasYourDay.dmg"
   name "How Was Your Day"
