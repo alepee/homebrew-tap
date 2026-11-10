@@ -1,6 +1,6 @@
 cask "how-was-your-day" do
-  version "0.10.0"
-  sha256 "4ce312b600380a1b0c41474c2c6f31b223d41f7ac9130ea8f1baaaafa51ec19b"
+  version "0.11.0"
+  sha256 "90dc1ab375511dbbd0013ffdd9d03e645deb732fad82d01f417ecdfa3828748f"
 
   url "https://github.com/alepee/how-was-your-day/releases/download/v#{version}/HowWasYourDay.dmg"
   name "How Was Your Day"
@@ -20,8 +20,7 @@ cask "how-was-your-day" do
   uninstall quit: "dev.lepee.hwyd"
 
   caveats <<~EOS
-    This experimental app is not notarized by Apple.
-    On first launch, use System Settings > Privacy & Security > Open Anyway.
+    This experimental app is signed with Developer ID and notarized by Apple.
     Recordings are kept in ~/Library/Application Support/HWYD.
     Uninstalling does not delete recordings or voice enrollment data.
   EOS
