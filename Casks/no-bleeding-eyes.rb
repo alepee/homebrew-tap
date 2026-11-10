@@ -1,6 +1,6 @@
 cask "no-bleeding-eyes" do
-  version "0.1.3"
-  sha256 "f6a4a099ef4e910e3c93af3902edb98090679625b1d44c0557d58ed456b8b265"
+  version "0.1.4"
+  sha256 "ae6273e7e92c3e1a6a71369e842b3192b0227d9b445c9a2d9d4c7ae446c4fedd"
 
   url "https://github.com/alepee/no-bleeding-eyes/releases/download/v#{version}/NoBleedingEyes.dmg"
   name "No Bleeding Eyes"
