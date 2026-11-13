@@ -1,6 +1,6 @@
 cask "how-was-your-day" do
-  version "0.12.1"
-  sha256 "fcc4f08a1ee95d04203130c390243ea3a00c20cb544c11800f7177d438c43d3b"
+  version "0.13.0"
+  sha256 "46e0ea090d0c3098f3beac65de73ec1c18991691ba2f5db5b5e43db601256955"
 
   url "https://github.com/alepee/how-was-your-day/releases/download/v#{version}/HowWasYourDay.dmg"
   name "How Was Your Day"
@@ -12,6 +12,7 @@ cask "how-was-your-day" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :tahoe
 
